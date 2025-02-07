@@ -1,16 +1,20 @@
 # Youtube Data harvesting and warehousing
 Problem Statement:
 Youtube is to create a Streamlit application that allows users to access and analyze data from multiple YouTube channels. 
+
 Software Requirements :
 1.	Microsoft Visual Studio
 2.  Youtube API Key
 3.  SQLITE3
+
 Installations Required in Microsoft Visual Studio Through Terminal :
 PIP INSTALL :
 1.	Streamlit
 2.	PANDAS
 3.	isodate
+
 DOMAIN : Social Media
+
 Approach:
 Set up a Streamlit app: Streamlit is a great choice for building data visualization and analysis tools quickly and easily. You can use Streamlit to create a simple UI where users can enter a YouTube channel ID, view the channel details, and select channels to migrate to the data warehouse.
 Connect to the YouTube API: You'll need to use the YouTube API to retrieve channel and video data. You can use the Google API client library for Python to make requests to the API.
